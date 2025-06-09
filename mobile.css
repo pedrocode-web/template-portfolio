@@ -1,0 +1,177 @@
+@media screen and (max-width: 768px) {
+    .menu-container {
+        width: 90% !important;
+        padding: 15px 5% !important;
+        top: 10px !important;
+        justify-content: space-between !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    .title-menu {
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        gap: 10px !important;
+    }
+
+    .title-menu img {
+        width: 35px !important;
+    }
+
+    .title-menu h1 {
+        font-size: 1.3rem !important;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        background: none !important;
+        border: none !important;
+        color: white !important;
+        font-size: 1.8rem !important;
+        cursor: pointer !important;
+        padding: 5px !important;
+        z-index: 1001 !important;
+        transition: transform 0.3s ease !important;
+    }
+
+    .menu-toggle:hover {
+        transform: scale(1.1) !important;
+    }
+
+    nav ul {
+        display: none !important;
+        position: absolute !important;
+        top: 70px !important;
+        left: 0 !important;
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.9) !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px !important;
+        padding: 25px 0 !important;
+        border-radius: 0 0 15px 15px !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    nav ul.show {
+        display: flex !important;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem !important;
+        padding: 10px 20px !important;
+    }
+
+    nav ul li a::before {
+        background-color: #ffffff !important;
+    }
+
+    section {
+        width: 90% !important;
+        flex-direction: column !important;
+        padding: 40px 5% !important;
+        margin: 100px auto 40px !important;
+    }
+
+    section > div:first-child {
+        padding-right: 0 !important;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 2rem !important;
+    }
+
+    section p {
+        font-size: 1rem !important;
+    }
+
+    section img {
+        max-width: 70% !important;
+    }
+
+    #inicio {
+        margin-top: 80px !important;
+    }
+
+    #sobre {
+        width: 90% !important;
+        margin: 60px auto 40px !important;
+    }
+
+    .sobre-header {
+        margin-bottom: 40px !important;
+    }
+    
+    .sobre-missao {
+        font-size: 1rem !important;
+    }
+
+    .skills-grid, .expertise-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    .skill-category, .expertise-card {
+        padding: 25px !important;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+        margin-bottom: 20px !important;
+    }
+
+    .servicos-section {
+        padding: 60px 0 !important;
+    }
+
+    .servicos-header {
+        margin-bottom: 40px !important;
+    }
+
+    .servicos-header h2 {
+        font-size: 2.2rem !important;
+    }
+
+    .servicos-header p {
+        font-size: 1rem !important;
+    }
+
+    .servicos-row {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .servico-card {
+        width: 100% !important;
+        min-width: auto !important;
+        padding: 30px 20px !important;
+    }
+
+    .footer-main {
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+    .footer-links {
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+    .footer-bottom {
+        flex-direction: column !important;
+        gap: 15px !important;
+        text-align: center !important;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .menu-toggle {
+        display: none !important;
+    }
+}
