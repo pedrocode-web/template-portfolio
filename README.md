@@ -35,3 +35,43 @@ Este projeto é distribuído gratuitamente apenas para fins **educacionais e pes
 - O uso continue sendo não comercial.
 
 ©️ 2025 - Todos os direitos reservados.
+
+---
+
+# Personal Portfolio Template
+
+This is a simple and straightforward personal portfolio template, ideal for developers, designers, or anyone who wants to showcase their projects online. The layout is divided into classic sections: Home, About, and Projects.
+
+I developed this template as part of my study routine and decided to share it for anyone who wants to use it as a base, study it, or customize it.
+
+---
+
+## Template Sections
+
+- **Home**
+- **About**
+- **Projects**
+
+---
+
+## 🔧 How to Use
+
+1. Fork or clone this repository.
+2. Edit the content in `index.html`, `style.css`, and `script.js` as needed.
+3. Deploy your portfolio on GitHub Pages, Vercel, Netlify, or the platform of your choice.
+
+---
+
+## 📝 License
+
+This project is distributed for free and intended for **educational and personal use only**.
+
+🔒 **The following is prohibited**:
+- Using this code, in whole or in part, in commercial projects;
+- Reselling, renting, monetizing, or profiting from this code in any way;
+
+✏️ Modifications are allowed, as long as:
+- Credit to the original author is maintained;
+- The usage remains non-commercial.
+
+©️ 2025 - All rights reserved.
